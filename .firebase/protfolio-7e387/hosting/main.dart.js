@@ -73115,7 +73115,7 @@ s.lD()
 return s.nl()},
 $S:450}
 A.Hi.prototype={
-I(a){return new A.vO("/splash_route",new A.a3e(),"JO Portfolio",$.atF(),new A.a20(),B.i8,!1,$.awc(),null)}}
+I(a){return new A.vO("/splash_route",new A.a3e(),"Magd Portfolio",$.atF(),new A.a20(),B.i8,!1,$.awc(),null)}}
 A.a3e.prototype={
 $2(a,b){var s=null
 return A.apZ(B.cU,s,s,A.a([B.I_,B.I3,B.I4,B.I2,B.I0],t.a3),s,new A.DY(b,s),!1,s,s,!0,1,s,s,s,s,s,s,450,s,!1,!1)},

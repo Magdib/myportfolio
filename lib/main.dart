@@ -21,14 +21,13 @@ class MyApp extends StatelessWidget {
   const MyApp({super.key});
   @override
   Widget build(BuildContext context) {
-    return 
-    GetMaterialApp(
-      title: "JO Portfolio",
+    return GetMaterialApp(
+      title: "Magd Portfolio",
       debugShowCheckedModeBanner: false,
       theme: AppTheme.lightsTheme,
       initialRoute: AppRoutes.splashRoute,
       translations: Localization(),
-      locale:const Locale("en"),
+      locale: const Locale("en"),
       getPages: routes,
       builder: (context, widget) => ResponsiveWrapper.builder(
         ClampingScrollWrapper.builder(context, widget!),
